@@ -7,7 +7,7 @@ using namespace std;
 bool IsLoggedIn()
 {
     string username, password, un, pw;
-    string path = "C:\\Users/User/Documents/codeblocksProjects/login_system/users/";
+    string path = "PATH_TO_SAVE_USER_INFO/";
     cout << "Enter username: "; cin >> username;
     cout << "Enter passwword: ";cin >> password;
 
@@ -25,7 +25,7 @@ bool IsLoggedIn()
 void Register()
 {
         string username, password;
-        string path = "C:\\Users/User/Documents/codeblocksProjects/login_system/users/";
+        string path = "PATH_TO_SAVE_USER_INFO";
         cout << "Your Username: "; cin >> username;
         cout << "Your Password:"; cin >> password;
 
